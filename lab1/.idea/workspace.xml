@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -24,7 +27,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcbefe3d-d797-480a-b7e5-6d68b8d2b306" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lab1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5122" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5128" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5132" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5134" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5142" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5144" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5146" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_script/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_script/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Отчет_1_лаборатория_Шмидт_Андрей_25207.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Отчет_1_лаборатория_Шмидт_Андрей_25207.odt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +62,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="12" />
+    <option name="cachedIndexableFilesCount" value="13" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
@@ -88,7 +115,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="lab1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab1" TARGET_NAME="lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab1" RUN_TARGET_NAME="lab1">
+    <configuration name="lab1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="100000" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab1" TARGET_NAME="lab1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab1" RUN_TARGET_NAME="lab1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -103,6 +130,10 @@
       <updated>1789219130483</updated>
       <workItem from="1789219131590" duration="3274000" />
       <workItem from="1789223736186" duration="15000" />
+      <workItem from="1789366011750" duration="3990000" />
+      <workItem from="1789457691654" duration="2370000" />
+      <workItem from="1789733606645" duration="22000" />
+      <workItem from="1789902770891" duration="3283000" />
     </task>
     <servers />
   </component>

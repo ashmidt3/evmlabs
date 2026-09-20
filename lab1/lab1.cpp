@@ -2,6 +2,7 @@
 #include <vector>
 #include <random>
 #include <ctime>
+#include <float.h>
 
 //GetSystemTime(), GetTickCount(), time()
 //GetThreadTimes(),GetProcessTimes()
@@ -10,18 +11,17 @@ class Bench {
 private:
     std::vector<int> initial_array;
     std::vector<int> work_array;
+    double min_time_taken;
     int size;
 public:
     Bench(int N) {
         size = N;
         initial_array.resize(size);
         work_array.resize(size);
+        min_time_taken = DBL_MAX;
 
-        std::random_device rd;
-        std::mt19937 gen(rd());
-        std::uniform_int_distribution<int> distribution(0, size - 1);
         for (int i = 0; i < size; i++) {
-            initial_array[i] = distribution(gen);
+            initial_array[i] = size-i-1;
         }
         reset();
     }
@@ -50,6 +50,27 @@ public:
             std::cout << work_array[i] << " ";
         }
     }
+
+    void measure_worktime(int it) {
+        timespec start, end, fault;
+
+        for (int i = 0; i < it; i++) {
+            clock_getres(CLOCK_MONOTONIC, &fault);
+            clock_gettime(CLOCK_MONOTONIC, &start);
+            boublesort();
+            clock_gettime(CLOCK_MONOTONIC, &end);
+
+
+            double time_taken = (double)(end.tv_sec-start.tv_sec) + 0.000000001*(end.tv_nsec-start.tv_nsec);
+            if (time_taken < min_time_taken) {
+                min_time_taken = time_taken;
+            }
+            std::cout << "Time taken: " << time_taken << " sec. Fault(it): " << fault.tv_nsec << " nsec.\n";
+            reset();
+        }
+        std::cout << "Min time taken: " << min_time_taken <<  " sec.\n";
+        std::cout << "Fault taken: " << (fault.tv_nsec/1e9)/min_time_taken << " sec.\n";
+    }
 };
 
 int main(int argc, char *argv[]) {
@@ -58,11 +79,7 @@ int main(int argc, char *argv[]) {
     int N = strtol(argv[1], nullptr, 10);
     Bench bench(N);
 
-    timespec start, end;
-    clock_gettime(CLOCK_MONOTONIC, &start);
-    bench.boublesort();
-    clock_gettime(CLOCK_MONOTONIC, &end);
-    std::cout << "Time taken: " << (double)(end.tv_sec-start.tv_sec) + 0.000000001*(end.tv_nsec-start.tv_nsec) << " sec.\n";
+    bench.measure_worktime(5);
 
     return 0;
 }
