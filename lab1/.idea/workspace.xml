@@ -47,11 +47,7 @@
       <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5144" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5146" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.tmp.driveupload/5148" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_script/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_script/benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Отчет_1_лаборатория_Шмидт_Андрей_25207.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Отчет_1_лаборатория_Шмидт_Андрей_25207.odt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="13" />
+    <option name="cachedIndexableFilesCount" value="12" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
@@ -133,7 +129,8 @@
       <workItem from="1789366011750" duration="3990000" />
       <workItem from="1789457691654" duration="2370000" />
       <workItem from="1789733606645" duration="22000" />
-      <workItem from="1789902770891" duration="3283000" />
+      <workItem from="1789902770891" duration="3756000" />
+      <workItem from="1789906900006" duration="37000" />
     </task>
     <servers />
   </component>

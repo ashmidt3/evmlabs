@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -13,8 +16,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e521687-556f-4ac0-9e94-ea1814ee48ed" name="Changes" comment="lab1 DONE">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5104" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5122" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5128" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5132" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5134" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5142" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5144" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5146" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/5148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/lab1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/lab1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +48,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="58" />
+    <option name="cachedIndexableFilesCount" value="131" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,30 +78,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/andre/CLionProjects/evmlabs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/CLionProjects/evmlabs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2e521687-556f-4ac0-9e94-ea1814ee48ed" name="Changes" comment="" />
@@ -89,6 +111,8 @@
       <updated>1789216649640</updated>
       <workItem from="1789216650822" duration="2447000" />
       <workItem from="1789223751731" duration="1074000" />
+      <workItem from="1789224876313" duration="1004000" />
+      <workItem from="1789365256123" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="lab1 DONE">
       <option name="closed" value="true" />

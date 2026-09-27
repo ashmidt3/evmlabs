@@ -11,10 +11,15 @@ typedef struct {
 } Bench;
 
 void reset(Bench* b) {
+<<<<<<< HEAD
     if (b->work_array != NULL && b->initial_array != NULL) {
         for (int i = 0; i < b->size; i++) {
             b->work_array[i] = b->initial_array[i];
         }
+=======
+    for (int i = 0; i < b->size; i++) {
+        b->work_array[i] = b->initial_array[i];
+>>>>>>> 22142f6b1bb877811cdb138997ef4c72d5854319
     }
 }
 
