@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Настройки бенчмарка
 OPTIMIZATIONS = ["O0", "O1", "O2", "O3", "Os", "Ofast", "Og"]
-N_VALUES = [20000, 40000, 60000, 80000, 100000]
+N_VALUES = [20000, 40000, 60000, 80000, 100000, 120000, 140000, 160000, 180000, 200000]
 
 results = {opt: [] for opt in OPTIMIZATIONS}
 
