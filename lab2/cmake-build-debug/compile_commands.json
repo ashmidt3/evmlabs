@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/andre/CLionProjects/evmlabs/lab2/cmake-build-debug",
+  "command": "C:\\Users\\andre\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -g -fdiagnostics-color=always -o CMakeFiles\\lab2.dir\\lab2.c.obj -c C:\\Users\\andre\\CLionProjects\\evmlabs\\lab2\\lab2.c",
+  "file": "C:/Users/andre/CLionProjects/evmlabs/lab2/lab2.c",
+  "output": "C:/Users/andre/CLionProjects/evmlabs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/lab2.c.obj"
+}
+]
