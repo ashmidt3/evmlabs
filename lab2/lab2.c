@@ -4,29 +4,27 @@
 #include <float.h>
 
 typedef struct {
-    int* initial_array;
-    int* work_array;
+    int *initial_array;
+    int *work_array;
     double min_time_taken;
     int size;
 } Bench;
 
-void reset(Bench* b) {
-<<<<<<< HEAD
+void reset(Bench *b) {
     if (b->work_array != NULL && b->initial_array != NULL) {
         for (int i = 0; i < b->size; i++) {
             b->work_array[i] = b->initial_array[i];
         }
-=======
-    for (int i = 0; i < b->size; i++) {
-        b->work_array[i] = b->initial_array[i];
->>>>>>> 22142f6b1bb877811cdb138997ef4c72d5854319
+        for (int i = 0; i < b->size; i++) {
+            b->work_array[i] = b->initial_array[i];
+        }
     }
 }
 
-void bench_init(Bench* b, int N) {
+void bench_init(Bench *b, int N) {
     b->size = N;
-    b->initial_array = (int*)malloc(sizeof(int) * N);
-    b->work_array = (int*)malloc(sizeof(int) * N);
+    b->initial_array = (int *) malloc(sizeof(int) * N);
+    b->work_array = (int *) malloc(sizeof(int) * N);
     b->min_time_taken = DBL_MAX;
 
     for (int i = 0; i < b->size; i++) {
@@ -35,13 +33,13 @@ void bench_init(Bench* b, int N) {
     reset(b);
 }
 
-void bench_free(Bench* b) {
+void bench_free(Bench *b) {
     free(b->initial_array);
     free(b->work_array);
 }
 
-void boublesort(Bench* b) {
-    int* p = b->work_array;
+void boublesort(Bench *b) {
+    int *p = b->work_array;
 
     for (int i = 0; i < b->size; i++) {
         for (int j = 0; j < b->size - i - 1; j++) {
@@ -54,23 +52,23 @@ void boublesort(Bench* b) {
     }
 }
 
-void print(Bench* b) {
+void print(Bench *b) {
     for (int i = 0; i < b->size; i++) {
         printf("%d ", b->work_array[i]);
     }
     printf("\n");
 }
 
-void measure_worktime(Bench* b, int it) {
-    double fault_sec = 1.0 / (double)CLOCKS_PER_SEC;
-    long long fault_nsec = (long long)(fault_sec * 1e9);
+void measure_worktime(Bench *b, int it) {
+    double fault_sec = 1.0 / (double) CLOCKS_PER_SEC;
+    long long fault_nsec = (long long) (fault_sec * 1e9);
 
     for (int i = 0; i < it; i++) {
         clock_t start = clock();
         boublesort(b);
         clock_t end = clock();
 
-        double time_taken = (double)(end - start) / (double)CLOCKS_PER_SEC;
+        double time_taken = (double) (end - start) / (double) CLOCKS_PER_SEC;
         if (time_taken < b->min_time_taken) {
             b->min_time_taken = time_taken;
         }
@@ -86,7 +84,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int N = (int)strtol(argv[1], NULL, 10);
+    int N = (int) strtol(argv[1], NULL, 10);
     Bench bench;
     bench_init(&bench, N);
 
